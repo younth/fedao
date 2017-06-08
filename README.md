@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/fedao.svg) ![](https://img.shields.io/npm/dm/fedao.svg)
 
-**fedao — 学而思在线前端工程构建工具**
+**![fedao](./docs/logo.png) 学而思在线前端工程构建工具**
 
 ### 主要特征
 
