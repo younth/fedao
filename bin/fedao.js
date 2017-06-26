@@ -7,7 +7,7 @@ var cli = new Liftoff({
     name: 'fedao', // 命令名字
     processTitle: 'fedao',
     moduleName: 'fedao',
-    configName: 'fedao-conf',
+    configName: 'fis-conf',
 
     // only js supported!
     extensions: {
