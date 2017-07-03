@@ -67,7 +67,7 @@ fis.parseJS = function(conf) {
         optional: ["es7.decorators", "es7.classProperties"],
         sourceMaps: conf.sourceMap,
         stage: conf.stage || 3, // 2为了支持解构赋值 否则可以为3
-    }, null, 'append')
+    }, 'append')
 }
 
 fis.enbleRequire = function(conf) {
