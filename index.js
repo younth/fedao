@@ -45,13 +45,10 @@ fis.set('template', 'template');
 fis.config.set('livereload.hostname', hostname);
 
 // 开启px2rem
-fis.enableRem = function(options) {
-    fis.match('/client/**less', {
-        // 追加px2rem
-        postprocessor: fis.plugin('px2rem', {
-            remUnit: 75
-        }, 'append')
-    });
+fis.enableRem = function(conf) {
+    return fis.plugin('px2rem', {
+        remUnit: conf.unit
+    }, 'append')
 };
 
 fis.parseJS = function(conf) {

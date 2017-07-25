@@ -1,7 +1,7 @@
 {
   "name": "fedao",
-  "version": "1.0.9",
-  "description": "fe tools kit for tal",
+  "version": "1.1.0",
+  "description": "fe tools kit",
   "main": "index.js",
   "bin": {
     "fedao": "bin/fedao.js"
